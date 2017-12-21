@@ -4,9 +4,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
 	<title>ingenaning</title>
+	<style type="text/css">
+		canvas{
+			border: 1px solid black;
+		}
+	</style>
 </head>
 <body>
 	<h1>Welcome to ingenaning!</h1>
+	<p id="pID"></p>
+	<p id="crash"></p>
+	<div id="color" style="width:200px;height:50px;float:left"></div>
+	<canvas tabindex="1" id="game" width="500" height="500"></canvas>
 
 	<label for="msg">Skriv någonting: </label>
 	<input type="text" name="msg" id="msg">
